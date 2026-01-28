@@ -89,6 +89,3 @@ SELECT * FROM placa_video INNER JOIN marca
 ON placa_video.marca_id = marca.id
 GROUP BY placa_video.nome
 ORDER BY placa_video.nome;
-
-
-
