@@ -29,3 +29,30 @@ SELECT * FROM orders;
 SELECT * FROM orders
 WHERE orderDate BETWEEN "2004-05-01" AND "2004-10-30"
 ORDER BY orderDate;
+
+
+
+
+
+
+
+
+SELECT * FROM employees;
+
+SELECT * FROM employees
+WHERE firstName LIKE '%y%';
+
+SELECT * FROM employees
+WHERE firstName LIKE 'd%';
+
+SELECT * FROM employees
+WHERE firstName LIKE '%a';
+
+SELECT * FROM employees
+WHERE firstName LIKE 'd%' OR firstName LIKE '%a';
+
+SELECT * FROM employees
+WHERE firstName LIKE 'f%e';
+
+SELECT * FROM employees
+WHERE firstName LIKE 'Mary';
